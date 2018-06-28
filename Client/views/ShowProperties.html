@@ -1,0 +1,407 @@
+﻿<div class="header-connect">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-8  col-xs-12">
+                <div class="header-half header-call">
+                    <p>
+                        <span><i class="pe-7s-call"></i> +1 514 567 1111</span>
+                        <span><i class="pe-7s-mail"></i> suresh@realtors.com</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2 col-md-offset-5  col-sm-3 col-sm-offset-1  col-xs-12">
+                <div class="header-half header-social">
+                    <ul class="list-inline">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vine"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li ng-hide="loggedIn">
+                            <B><u>Log in</u></B>
+                        </li>
+                        <li ng-show="loggedIn" class="dropdown ymm-sw " data-wow-delay="0.1s">
+                            <a href="index.html" class="" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Welcome {{username}} <b class="caret"></b></a>
+                            <ul class="dropdown-menu navbar-nav">
+                                <li><a href="register.html">Register / login</a> </li>
+                                <li><a href="user-properties.html">Your properties</a> </li>
+                                <li><a href="submit-property.html">Sell / Rent property</a> </li>
+                                <li><a href="change-password.html">Change password</a> </li>
+                                <li><a href="user-profile.html">Your profile</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of header content-->
+
+<nav class="navbar navbar-default ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#home"><img src="../img/logo.png" alt="" /></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse yamm" id="navigation">
+            <div class="button navbar-right">
+                <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.4s">Login</button>
+                <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.5s">Submit</button>
+            </div>
+            <ul class="main-nav nav navbar-nav navbar-right">
+                <li class="wow fadeInDown"><a href="#home">Home</a></li>
+                <li class="wow fadeInDown"><a href="#trendingProp">Trendng Properties</a></li>
+                <li class="wow fadeInDown"><a href="About">About</a></li>
+                <li class="wow fadeInDown"><a href="Contact">Contact</a></li>
+            </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!-- End of nav bar -->
+
+<div class="page-head">
+    <div class="container">
+        <div class="row">
+            <div class="page-head-content">
+                <h1 class="page-title">List Layout With Sidebar</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End page header -->
+
+<!-- property area -->
+<div class="properties-area recent-property" style="background-color: #FFF;">
+    <div class="container">
+        <div class="row">
+            <!-- search and Recommended section-->
+            <div class="col-md-3 p0 padding-top-40">
+                <div class="blog-asside-right pr0">
+                    <!-- Search-->
+                    <div class="panel panel-default sidebar-menu wow fadeInRight animated">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Smart search</h3>
+                        </div>
+                        <div class="panel-body search-widget">
+                            <form action="" class="form-inline">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" placeholder="Key word">
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+
+                                            <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Select Your City">
+
+                                                    <option>New york, CA</option>
+                                                    <option>Paris</option>
+                                                    <option>Casablanca</option>
+                                                    <option>Tokyo</option>
+                                                    <option>Marraekch</option>
+                                                    <option>kyoto , shibua</option>
+                                                </select>
+                                        </div>
+                                        <div class="col-xs-6">
+
+                                            <select id="basic" class="selectpicker show-tick form-control">
+                                                    <option> -Status- </option>
+                                                    <option>Rent </option>
+                                                    <option>Boy</option>
+                                                    <option>used</option>  
+
+                                                </select>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="price-range">Price range ($):</label>
+                                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[0,450]" id="price-range"><br />
+                                            <b class="pull-left color">2000$</b>
+                                            <b class="pull-right color">100000$</b>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <label for="property-geo">Property geo (m2) :</label>
+                                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[50,450]" id="property-geo"><br />
+                                            <b class="pull-left color">40m</b>
+                                            <b class="pull-right color">12000m</b>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="price-range">Min baths :</label>
+                                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="min-baths"><br />
+                                            <b class="pull-left color">1</b>
+                                            <b class="pull-right color">120</b>
+                                        </div>
+
+                                        <div class="col-xs-6">
+                                            <label for="property-geo">Min bed :</label>
+                                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="min-bed"><br />
+                                            <b class="pull-left color">1</b>
+                                            <b class="pull-right color">120</b>
+
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox" checked> Fire Place</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox"> Dual Sinks</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox" checked> Swimming Pool</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox" checked> 2 Stories </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label><input type="checkbox"> Laundry Room </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox"> Emergency Exit</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label>  <input type="checkbox" checked> Jog Path </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="checkbox">
+                                                <label>  <input type="checkbox"> 26' Ceilings </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="padding-5">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="checkbox">
+                                                <label>  <input type="checkbox"> Hurricane Shutters </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <input class="button btn largesearch-btn" value="Search" type="submit">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Recommended-->
+                    <div class="panel panel-default sidebar-menu wow fadeInRight animated">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Recommended</h3>
+                        </div>
+                        <div class="panel-body recent-property-widget">
+                            <ul>
+                                <li>
+                                    <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                        <a href="single.html"><img src="assets/img/demo/small-property-2.jpg"></a>
+                                        <span class="property-seeker">
+                                                    <b class="b-1">A</b>
+                                                    <b class="b-2">S</b>
+                                                </span>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                        <h6> <a href="single.html">Super nice villa </a></h6>
+                                        <span class="property-price">3000000$</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
+                                        <a href="single.html"><img src="assets/img/demo/small-property-1.jpg"></a>
+                                        <span class="property-seeker">
+                                                    <b class="b-1">A</b>
+                                                    <b class="b-2">S</b>
+                                                </span>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                        <h6> <a href="single.html">Super nice villa </a></h6>
+                                        <span class="property-price">3000000$</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                        <a href="single.html"><img src="assets/img/demo/small-property-3.jpg"></a>
+                                        <span class="property-seeker">
+                                                    <b class="b-1">A</b>
+                                                    <b class="b-2">S</b>
+                                                </span>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                        <h6> <a href="single.html">Super nice villa </a></h6>
+                                        <span class="property-price">3000000$</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                        <a href="single.html"><img src="assets/img/demo/small-property-2.jpg"></a>
+                                        <span class="property-seeker">
+                                                    <b class="b-1">A</b>
+                                                    <b class="b-2">S</b>
+                                                </span>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                        <h6> <a href="single.html">Super nice villa </a></h6>
+                                        <span class="property-price">3000000$</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9  pr0 padding-top-40 properties-page">
+                <!-- Filter Section-->
+                <div class="col-md-12 clear">
+                    <div class="col-xs-10 page-subheader sorting pl0">
+                        <ul class="sort-by-list">
+                            <li ng-class="{'active' : orderby=='posted'}">
+                                <a class="order_by_date" ng-href="" ng-click="onFilter(true)">
+                                            Property Date <i  class="fa fa-sort-amount-asc" style="cursor: pointer;"></i>
+                                        </a>
+                            </li>
+                            <li ng-class="{'active' : orderby=='Price'}">
+                                <a ng-href="" ng-click="onFilter(false)">
+                                            Property Price <i  class="fa fa-sort-numeric-desc" style="cursor: pointer;"></i>
+                                        </a>
+                            </li>
+                        </ul>
+                        <!--/ .sort-by-list-->
+
+
+                        <label for="items_per_page"><b>Property per page :</b></label>
+
+                        <select id="items_per_page" name="per_page" ng-model="perPage">
+                                        <option value="3">3</option>
+                                        <option value="6">6</option>
+                                        <option value="9">9</option>
+                                        <option value="12">12</option>
+                                        <option value="15">15</option>
+                                        <option value="30">30</option>
+                                        <option value="45">45</option>
+                                        <option value="60">60</option>
+                                    </select>
+
+                    </div>
+
+                    <div class="col-xs-2 layout-switcher">
+                        <a class="layout-list" ng-class="{'active' : grid}" ng-click="onChange(true)" href="javascript:void(0);"> <i class="fa fa-th-list"></i> </a>
+                        <a class="layout-grid" ng-class="{'active' : !grid}" ng-click="onChange(false)" href="javascript:void(0);"> <i class="fa fa-th"></i> </a>
+                    </div>
+                    <!--/ .layout-switcher-->
+                </div>
+
+                <!-- Properties display page-->
+                <div class="col-md-12 clear">
+                    <div id="list-type" class="proerty-th" ng-class="{'proerty-th-list' : grid}">
+                        <div class="col-sm-6 col-md-4 p0" ng-repeat="showProp in showProperties | orderBy : orderby | limitTo : perPage">
+                            <div class="box-two proerty-item">
+                                <div class="item-thumb">
+                                    <a href="property-1.html"><img src="assets/img/demo/property-3.jpg"></a>
+                                </div>
+
+                                <div class="item-entry overflow">
+                                    <h5><a ng-href="#viewProp/{{showProp._id}}"> {{showProp.Summary}} </a></h5>
+                                    <div class="dot-hr"></div>
+                                    <span class="pull-left"><b> Area :</b> {{showProp.Area}} </span>
+                                    <span class="proerty-price pull-right"> {{showProp.Price}}</span>
+                                    <p style="display: none;">{{showProp.Description}}</p>
+                                    <div class="property-icon">
+                                        <img src="assets/img/icon/bed.png">({{showProp.Bed}})|
+                                        <img src="assets/img/icon/shawer.png">({{showProp.Bath}})|
+                                        <img src="assets/img/icon/cars.png">({{showProp.Parking}})
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Previous and Next navigation-->
+                <div class="col-md-12">
+                    <div class="pull-right">
+                        <div class="pagination">
+                            <ul>
+                                <li><a href="#">Prev</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer area-->

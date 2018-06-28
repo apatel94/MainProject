@@ -1,0 +1,122 @@
+﻿<div>
+
+    <section class="hero">
+        <header>
+            <div class="wrapper">
+                <a href="#"><img src="./img/logo.png" class="logo" alt="" title="" /></a>
+                <a href="#" class="hamburger"></a>
+                <nav>
+                    <ul>
+                        <li><a ng-href="#home">Home</a></li>
+                        <li><a ng-href="#trendingProp">Trending Properties</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                    <a class="login_btn" ng-href="#register" ng-show="!loggedIn">Login</a>
+                    <a class="login_btn" ng-click="onLogOut()" ng-show="loggedIn">LogOut</a>
+                </nav>
+
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="button" style="color:white;
+                        background-color:steelblue;
+                        margin-top : 250px;
+                        margin-left:250px;
+                        margin-right:auto;
+						margin-bottom : auto;
+                        width:200px;
+                        height:40px;
+                        font-size: 16px;letter-spacing: 1px;" value="Buy" ng-click="onBuySelected()" ng-style="buy == true && {'background-color' : 'orangered'} ||
+                                  rent == true && {'background-color' : 'steelblue'} " />
+                        </td>
+                        <td>
+                            <input type="button" style="color:white;
+                        background-color:steelblue;
+                        margin-top : 250px;
+                        margin-left: -400px;
+                        width:210px;
+                        height:40px;
+                        font-size: 16px;letter-spacing: 1px;" value="Rent" ng-click="onRentSelected()" ng-style="rent == true && {'background-color' : 'orangered'} ||
+                                  buy == true && {'background-color' : 'steelblue'} " />
+                        </td>
+                        <td>
+                            <input type="button" style="color:white;
+                        background-color:steelblue;
+                        margin-top : 250px;
+                        margin-left: -250px;
+                        width:200px;
+                        height:40px;
+                        font-size: 16px;letter-spacing: 1px;" ng-click="onSubmit()" value="Sell" />
+                        </td>
+                        <td>
+                            <input type="button" style="color:white;
+                        background-color:steelblue;
+                        margin-top : 250px;
+                        margin-left: -450px;
+                        width:200px;
+                        height:40px;
+                        font-size: 16px;letter-spacing: 1px;" value="Commercials" />
+                        </td>
+                    </tr>
+                    <tr class="wrapper">
+
+                        <td>
+
+                            <select style="color:white;
+                                    background-color:steelblue;
+                                    margin:250px;
+                                    margin-left:250px;
+                                    margin-right:350px;
+                                    margin-top:auto;
+                                    width:250px;
+                                    height:40px;
+                                    font-size :16px;letter-spacing : 1px;" ng-model="type">
+                                <option value="" disabled selected>Select Property Type</option>
+                                <option value="Apartment"> Condo / Apartment </option>
+                                <option value="Individual"> Individual House </option>
+                                <option value="Office"> Office / Commercial Space </option>
+                            </select>
+                        </td>
+                        <td>
+                            <div>
+                                <input style="color:red;
+                                       font-size: 16px;
+                                       letter-spacing: 1px;
+                                       background-color:white; 
+                                       margin:250px; 
+                                       margin-right:auto; 
+                                       margin-left:-350px; 
+                                       margin-top:auto; 
+                                       margin-bottom:auto; 
+                                       width:400px; 
+                                       height:35px" type="text" id="search" name="search" placeholder="Search By City, Locality or Address" autocomplete="off" ng-model="locationText" ng-keyup="fetchLocations()" /><br/>
+                                <ul style="color:red;
+                                           font-size: 16px;
+                                           letter-spacing: 1px;
+                                           margin:250px;
+                                           margin-right:auto;
+                                           margin-left:-350px;
+                                           margin-top:auto;
+                                           margin-bottom:auto;
+                                           width:400px;
+                                           height:35px" id='searchResult'>
+                                    <li ng-click="setLocation($index)" ng-repeat="location in locations track by $index"> {{location}}</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <input style="color:white; font-size: 18px;letter-spacing: 1px; background-color:midnightblue; margin:250px; margin-left:auto; margin-top:auto; width:150px; height:40px" type="submit" value="search" ng-click="onSearch()" />
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </header>
+    </section>
+    <!--  end hero section  -->
+
+</div>

@@ -1,0 +1,235 @@
+﻿
+<!-- Footer Logic -- >
+  <!-- Footer area-->
+    <div class="footer-area">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div class="single-footer">
+                            <h4>About us </h4>
+                            <div class="footer-title-line"></div>
+                            <img src="/img/logo.png" alt="" class="wow pulse" data-wow-delay="1s">
+                            <p>About Suresh Constructions Pvt. Ltd.Suresh constructions pvt. Ltd. Offer residential apartment(S) on sale in and around Canada.</p>
+                            <ul class="footer-adress">
+                                <li><i class="pe-7s-map-marker strong"> </i> 3235 Montreal</li>
+                                <li><i class="pe-7s-mail strong"> </i> suresh@realtors.com</li>
+                                <li><i class="pe-7s-call strong"> </i> +1 514 571 111</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div class="single-footer">
+                            <h4>Quick links </h4>
+                            <div class="footer-title-line"></div>
+                            <ul class="footer-menu">
+                                <li><a>Properties</a>  </li>
+                                <li><a href="#">Services</a>  </li>
+                                <li><a>Submit property </a></li>
+                                <li><a>Contact us</a></li>
+                                <li><a>faq</a>  </li>
+                                <li><a>Terms </a>  </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div class="single-footer">
+                            <h4>Last News</h4>
+                            <div class="footer-title-line"></div>
+                            <ul class="footer-blog">
+                                <li>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                        <a href="single.html">
+                                            <img src="assets/img/demo/small-proerty-2.jpg">
+                                        </a>
+                                        <span class="blg-date">05-18-2018</span>
+                                    </div>
+                                    <div class="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                        <h6> <a href="single.html">Add news functions </a></h6>
+                                        <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit amet, nulla ...</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                        <a href="single.html">
+                                            <img src="assets/img/demo/small-proerty-2.jpg">
+                                        </a>
+                                        <span class="blg-date">12-12-2016</span>
+                                    </div>
+                                    <div class="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                        <h6> <a href="single.html">Add news functions </a></h6>
+                                        <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit amet, nulla ...</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                        <a href="single.html">
+                                            <img src="assets/img/demo/small-proerty-2.jpg">
+                                        </a>
+                                        <span class="blg-date">12-12-2016</span>
+                                    </div>
+                                    <div class="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                        <h6> <a href="single.html">Add news functions </a></h6>
+                                        <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit amet, nulla ...</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div class="single-footer news-letter">
+                            <h4>Stay in touch</h4>
+                            <div class="footer-title-line"></div>
+                            <p>Subscribe to our monthly news letter by entering Email below. We will be in touch with you by providing market updates daily...</p>
+                            <form>
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="E-mail ... ">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary subscribe" type="button"><i class="pe-7s-paper-plane pe-2x"></i></button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </form>
+                            <div class="social pull-right">
+                                <ul>
+                                    <li><a class="wow fadeInUp animated" href="https://twitter.com/kimarotec"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="wow fadeInUp animated" href="https://www.facebook.com/kimarotec" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="wow fadeInUp animated" href="https://plus.google.com/kimarotec" data-wow-delay="0.3s"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a class="wow fadeInUp animated" href="https://instagram.com/kimarotec" data-wow-delay="0.4s"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a class="wow fadeInUp animated" href="https://instagram.com/kimarotec" data-wow-delay="0.6s"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="pull-left">
+                        <span> (C) <a href="">Suresh Realtors</a> , All rights reserved 2018  </span>
+                    </div>
+                    <div class="bottom-menu pull-right">
+                        <ul>
+                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.2s">Home</a></li>
+                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.3s">Property</a></li>
+                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.4s">Faq</a></li>
+                            <li><a class="wow fadeInUp animated" href="#" data-wow-delay="0.6s">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	
+
+  // checkbox logic : 
+   $scope.AdditionalDetails = ['Swimming Pool', '2 Stories', 'Emergency Exit', 'Fire Place', 'Laundry Room', 'Jog Path', 'Ceilings', 'Parking'];
+    $scope.onCheckboxSelected = function (detail) {
+
+            if (CheckedAdditionalDetails.indexOf(detail) === -1) {
+                CheckedAdditionalDetails.push(detail);
+            } else {
+                CheckedAdditionalDetails.splice(CheckedAdditionalDetails.indexOf(detail), 1);
+            }
+        }
+
+		<!-- Bommerang http body data -->
+
+{
+    "Address": "1235 Robert Boursa",
+    "AgentAddress": "9089 your adress her",
+    "AgentContact": "+1 (514) 123 5678",
+    "AgentDetails": "About Suresh Constructions Pvt. Ltd.Suresh constructions pvt. Ltd. Offer residential apartment(S) on sale in and around Canada.",
+    "AgentMail": "Beela@sureshRealtors.com",
+    "AgentName": "Beela",
+    "Amenities": [ "WaterFrontView", "Fire Place", "Jog Path", "Swimming pool", "BikePath", "childrenpark" ],
+     "AdditionalDetails": {
+      "waterfront": "yes",
+      "view": "Intracoastal View,Direct ew",
+      "Parking": "2 Or More Spaces,Covered Parking,Valet Parking",
+      "BuiltIn": "2017",
+      "Location": "Montreal"
+    },
+    "Area": "288sqft",
+    "Availability": "Ready to Move",
+    "Balcony": "2",
+    "Bath": "2",
+    "Bed": "2",
+    "Builtin": "2017",
+    "CarGarages" :  "2",
+    "City": "mississauga",
+    "Description": "This is a premium joint venture development of Beela's construction, a luxurious and prestigious project",
+    "Facing": "North-East",
+    "Gated": "yes",
+    "Id": "1",
+    "Kitchen": "1",
+    "Parking": "yes",
+    "posted": "1/21/2018",
+    "Price": "444000$",
+    "Propimages": "prop1.jpg",
+    "State": "QC",
+    "Summary": "Independent House sale in Mississauga",
+    "Status": "Sale",
+    "Type" :  "Apartment"
+  }
+
+
+  <!--  $http post -->
+   
+  var config = {
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            };
+
+  var body = {
+            Address	:	$scope.Address,
+            AgentAddress	:	$scope.AgentAddress,
+            AgentContact	:	$scope.AgentContact,
+            AgentDetails	:	$scope.AgentDetails,
+            AgentMail	:	$scope.AgentMail,
+            AgentName	:	$scope.AgentName,
+            Amenities: CheckedAdditionalDetails,
+            AdditionalDetails: { Parking: $scope.add.Parking, View: $scope.add.View, Builtin: $scope.add.BuiltIn, WaterFront: $scope.add.WaterFront, View: $scope.add.View },
+            Area	:	$scope.Area,
+            Availability	:	$scope.Availability,
+            Balcony	:	$scope.Balcony,
+            Bath	:	$scope.Bath,
+            Bed	:	$scope.Bed,
+            Builtin	:	$scope.Builtin,
+            CarGarages	:	$scope.CarGarages,
+            City	:	$scope.City,
+            Description	:	$scope.Description,
+            Facing	:	$scope.Facing,
+            Gated	:	$scope.Gated,
+            Id	:	$scope.Id,
+            Kitchen	:	$scope.Kitchen,
+            Parking	:	$scope.Parking,
+            posted	:	$scope.posted,
+            Price	:	$scope.Price,
+            Propimages	:	$scope.Propimages,
+            State	:	$scope.State,
+            Summary	:	$scope.Summary,
+            Status	:	$scope.Status,
+            Type	:	$scope.Type,
+            Password	:	$scope.Password
+
+            };
+			
+			<ul style="color:red;
+                                           font-size: 16px;
+                                           letter-spacing: 1px; 
+                                           margin:250px; 
+                                           margin-right:auto; 
+                                           margin-left:-350px; 
+                                           margin-top:auto; 
+                                           margin-bottom:auto; 
+                                           width:400px; 
+                                           height:35px" id='searchResult'>
+                                    <li ng-repeat = > {{}}</li>
+                                </ul>
